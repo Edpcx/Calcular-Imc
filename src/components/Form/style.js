@@ -2,21 +2,15 @@ import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
   formContext: {
-    width: '100%',
-    height: '100%',
-    bottom: 0,
+    flex: 1,
     backgroundColor: '#FFFFFF',
     alignItems: 'center',
-    marginTop: 30,
     borderTopLeftRadius: 30,
     borderTopRightRadius: 30,
-    marginTop: 30
+    paddingTop: 30
   },
   form: {
-    width: '100%',
-    height: 'auto',
-    marginTop: 30,
-    padding: 10
+    width: '100%'
   },
   formLabel: {
     color: '#000000',
@@ -36,7 +30,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     width: '90%',
-    backgroundColor: '#ff0043',
+    backgroundColor: '#0074CC',
     paddingTop: 14,
     paddingBottom: 14,
     marginLeft: 12,
@@ -46,6 +40,47 @@ const styles = StyleSheet.create({
   textbuttonCalculator: {
     fontSize: 20,
     color: '#ffffff'
+  },
+
+  errorMessage: {
+    fontSize: 12,
+    color: 'red',
+    fontWeight: 'bold',
+    paddingLeft: 20
+  },
+  exibitonResultImc: {
+    width: '100%',
+    height: '50%'
+  },
+  limparListImc: {
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '90%',
+    backgroundColor: '#ff0043',
+    paddingTop: 14,
+    paddingBottom: 14,
+    marginLeft: 12,
+    margin: 30
+  },
+  textbuttonLimparListImc: {
+    fontSize: 20,
+    color: '#ffffff'
+  },
+  listImc: {
+    marginTop: 20
+  },
+
+  resultImcItem: {
+    fontSize: 20,
+    color: 'red',
+    height: 50,
+    width: '100%',
+    paddingRight: 20
+  },
+  textResultItemList: {
+    fontSize: 16,
+    color: 'red'
   }
 })
 
